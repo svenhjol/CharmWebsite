@@ -41,7 +41,7 @@ function filterFeatureText(string $text, string $filter): string {
 
 function getSearchTerm(): string {
     $search = $_GET['search'];
-    $search = trim(strtolower(preg_replace('/[^a-zA-Z0-9] /', '', substr($search, 0, 16))));
+    $search = trim(strtolower(preg_replace('/([^a-zA-Z0-9 ])/', '', substr($search, 0, 16))));
     if (strlen($search) < 3) {
         $search = "";
     }
