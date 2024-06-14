@@ -25,6 +25,9 @@ function replaceFeatureText(string $text): string {
     $text = preg_replace('/CHARM_FEATURES_URL/', CHARM_FEATURES_URL, $text);
     $text = preg_replace('/CHARMONIUM_FEATURES_URL/', CHARMONIUM_FEATURES_URL, $text);
     $text = preg_replace('/STRANGE_FEATURES_URL/', STRANGE_FEATURES_URL, $text);
+    $text = preg_replace('/CHARM_VERSION/', CHARM_VERSION, $text);
+    $text = preg_replace('/CHARMONIUM_VERSION/', CHARMONIUM_VERSION, $text);
+    $text = preg_replace('/STRANGE_VERSION/', STRANGE_VERSION, $text);
     return $text;
 }
 
