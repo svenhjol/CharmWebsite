@@ -3,3 +3,7 @@
 /composer.lock
 /package-lock.json
 /config.php
+/files
+/gradle
+/issues-triage.txt
+/wiki
