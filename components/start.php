@@ -8,6 +8,3 @@
         <link rel="stylesheet" href="/overrides.css">
     </head>
     <body>
-        <?php echo ob_get_clean(); ?>
-    </body>
-</html>

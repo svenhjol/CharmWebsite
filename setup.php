@@ -18,7 +18,8 @@ const CONTENT_DIR = __DIR__ . '/content';
 const HEADER = COMPONENTS_DIR . '/header.php';
 const FOOTER = COMPONENTS_DIR . '/footer.php';
 const FEATURE = COMPONENTS_DIR . '/feature.php';
-const OUT = COMPONENTS_DIR . '/out.php';
+const START = COMPONENTS_DIR . '/start.php';
+const END = COMPONENTS_DIR . '/end.php';
 
 function replaceFeatureText(string $text): string {
     $text = preg_replace('/CHARM_FEATURES_URL/', CHARM_FEATURES_URL, $text);

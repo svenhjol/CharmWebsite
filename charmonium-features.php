@@ -3,6 +3,7 @@
 define('ENTRYPOINT', true);
 
 require_once(__DIR__.'/setup.php');
+require_once(START);
 
 $search = getSearchTerm();
 $title = 'Charmonium Features';
@@ -48,5 +49,5 @@ foreach ($ordered as $name => $text) {
     include(FEATURE);
 }
 
-require_once(OUT);
+require_once(END);
 exit;

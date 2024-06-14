@@ -3,8 +3,7 @@
 define('ENTRYPOINT', true);
 
 require_once(__DIR__.'/setup.php');
-
-ob_start();
+require_once(START);
 
 $title = "Welcome to Charmony!";
 $active = 'home';
@@ -24,6 +23,6 @@ echo $pd->text($homeText);
 echo $pd->text($downloadText);
 
 require_once(FOOTER);
-require_once(OUT);
+require_once(END);
 
 exit(0);
