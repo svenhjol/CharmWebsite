@@ -2,9 +2,9 @@
 
 The currently supported version of Minecraft is [1.21](https://minecraft.wiki/w/Java_Edition_1.21) using the [Fabric](https://fabricmc.net/) loader and the [Fabric API](https://modrinth.com/mod/fabric-api/) mod. The versions listed below are **beta**. There are some known issues and a project tracker for logging issues will be available soon&trade;.
 
-- [Charm 7.0](https://charmony.work/files/charm-fabric-CHARM_VERSION)
-- [Charmonium 7.0](https://charmony.work/files/charmonium-fabric-CHARMONIUM_VERSION)
-- [Strange 7.0](https://charmony.work/files/strange-fabric-STRANGE_VERSION)
+- [Charm 7.0](https://charmony.work/files/charm-fabric-CHARM_VERSION.jar)
+- [Charmonium 7.0](https://charmony.work/files/charmonium-fabric-CHARMONIUM_VERSION.jar)
+- [Strange 7.0](https://charmony.work/files/strange-fabric-STRANGE_VERSION.jar)
 
 Please be aware that the Charmony team is **not** responsible for any loss of data that may occur to your worlds as a result of using these mods. Take backups of anything before you add them!
 
