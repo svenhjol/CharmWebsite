@@ -1,0 +1,39 @@
+.searchform {
+    margin-top: 1.5em;
+    text-align: center;
+    input {
+        width: 80%;
+    }
+}
+
+header {
+    h1 {
+        padding-top: 0.7em !important;
+        font-size: 3.2em;
+    }
+    margin-bottom: 1em !important;
+}
+
+@media screen and (max-width: 800px) {
+    h2 {
+        .feature-link {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    h2 {
+        .feature-link {
+            font-size: 0.75em;
+            margin-left: -1.0em;
+            color: var(--text);
+            opacity: 0.25;
+            text-decoration: none;
+        }
+
+        .feature-link:hover {
+            text-decoration: underline;
+        }
+    }
+}

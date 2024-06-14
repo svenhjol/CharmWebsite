@@ -1,0 +1,3 @@
+## Smooth glowstone
+
+Smooth glowstone.
