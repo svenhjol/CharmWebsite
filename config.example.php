@@ -5,7 +5,7 @@ const BASE_URL = 'http://localhost:8000';
 
 const CHARM_VERSION = '1.21-7.0.20';
 const CHARMONIUM_VERSION = '1.21-7.0.0';
-const STRANGE_VERISON = '1.21-7.0.9';
+const STRANGE_VERSION = '1.21-7.0.9';
 
 const CHARM_FEATURES_URL = BASE_URL . '/charm-features.php';
 const CHARMONIUM_FEATURES_URL = BASE_URL . '/charmonium-features.php';
