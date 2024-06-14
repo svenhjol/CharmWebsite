@@ -10,8 +10,6 @@ $title = 'Charmonium Features';
 $active = 'charmonium-features';
 require_once(HEADER);
 
-ob_start();
-
 ?>
 <div class="searchform">
     <form action="/charmonium-features.php">

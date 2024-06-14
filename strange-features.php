@@ -10,8 +10,6 @@ $title = 'Strange Features';
 $active = 'strange-features';
 require_once(HEADER);
 
-ob_start();
-
 ?>
 <div class="searchform">
     <form action="/strange-features.php">

@@ -10,8 +10,6 @@ $title = 'Charm Features';
 $active = 'charm-features';
 require_once(HEADER);
 
-ob_start();
-
 ?>
 <div class="searchform">
     <form action="/charm-features.php">
